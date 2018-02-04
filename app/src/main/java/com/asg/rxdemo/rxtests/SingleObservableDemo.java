@@ -1,11 +1,7 @@
-package room.asg.com.rxdemo.rxtests;
+package com.asg.rxdemo.rxtests;
 
 import android.util.Log;
 
-import io.reactivex.Completable;
-import io.reactivex.CompletableEmitter;
-import io.reactivex.CompletableObserver;
-import io.reactivex.CompletableOnSubscribe;
 import io.reactivex.Single;
 import io.reactivex.SingleEmitter;
 import io.reactivex.SingleObserver;

@@ -1,15 +1,16 @@
-package room.asg.com.rxdemo
+package com.asg.rxdemo;
 
+import android.app.Activity
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.View
+import com.asg.rxdemo.rxtests.*
 import io.reactivex.Observable
 import io.reactivex.ObservableOnSubscribe
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_main.*
-import room.asg.com.rxdemo.rxtests.*
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -17,7 +18,7 @@ import java.util.*
  * Created by AGularia on 28/01/18.
  */
 
-class RxDemoActivity : AppCompatActivity() {
+class RxDemoActivity : Activity() {
 
     private val TAG = RxDemoActivity::class.java.simpleName
 

@@ -1,16 +1,11 @@
-package room.asg.com.rxdemo.rxtests;
+package com.asg.rxdemo.rxtests;
 
-import android.Manifest;
 import android.util.Log;
 
 import io.reactivex.Maybe;
 import io.reactivex.MaybeEmitter;
 import io.reactivex.MaybeObserver;
 import io.reactivex.MaybeOnSubscribe;
-import io.reactivex.Observable;
-import io.reactivex.ObservableEmitter;
-import io.reactivex.ObservableOnSubscribe;
-import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 
 /**
